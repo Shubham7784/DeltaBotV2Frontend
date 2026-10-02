@@ -1,0 +1,6 @@
+{
+  "name": "Delta Bot V2",
+  "description": "Automated trading platform for Delta Exchange supporting Futures and Options trading domains with multi-timeframe analysis and deterministic risk controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
