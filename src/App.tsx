@@ -83,11 +83,11 @@ export default function App() {
       />
 
       {/* Main Workspace Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="min-w-0 flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-4 sm:space-y-6">
         {/* Backend Warning Banner if offline */}
         {backendError && (
-          <div className="bg-rose-950/40 border border-rose-500/50 rounded-xl p-4 flex items-center justify-between text-xs text-rose-300">
-            <div>
+          <div className="bg-rose-950/40 border border-rose-500/50 rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-rose-300">
+            <div className="min-w-0 break-words">
               <span className="font-semibold font-mono">[Notice]</span> FastAPI backend service is initializing or unreachable ({backendError}).
             </div>
             <button
